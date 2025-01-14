@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav {
+            
+    justify-content: center;    /* Horizontally center the text */
+    align-items: center;        /* Vertically center the text */
+     text-align: center;  
+     background-color: aqua; 
+     padding: 5px;      /* Optional: Ensures text is centered inside h1 */
+}
+
+.choicess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+img{
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.msg{
+    display: inline; 
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: purple;
+    margin-top: 50px;
+    display: inline-block; 
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 28px;
+}
+.cen{
+    display: flex;
+    justify-content: center;
+}
+
+/* Simple hover effect */
+.hover-effect {
+    transition: all 0.3s ease;          /* Smooth transition */
+}
+
+/* Hover effect for each choice */
+.hover-effect:hover {
+    border: 5px solid black;            /* Border when hovered */
+    background-color: rgba(0, 0, 0, 0.1); /* Light background when hovered */
+    cursor: pointer;
+    /* border-radius: 50%; */
+}
+
+
